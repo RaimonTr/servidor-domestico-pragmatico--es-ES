@@ -32,11 +32,11 @@ También obtendrás algo difícil de comprar: control. Tus fotos estarán donde 
 
 # Aclaraciones que se me van ocurriendo
 
--Este manual se ha escrito desde un Mac. Supongo que es lo mismo si usas GNU-Linux, pero desde luego no te va a funcionar en Windows.
+- Este manual se ha escrito desde un Mac. Supongo que es lo mismo si usas GNU/Linux (que abreviaremos como Linux o Ubuntu, por ser la distribución Linux que vamos a usar), pero desde luego no te va a funcionar en Windows.
 
--En el manual verás cosas como "~/docker". Esa ruta, que corresponde al servidor Ubuntu, es la misma que "/home/servi/docker". ~ significa “mi carpeta personal". Simplmente es un atajo que nos permite ahorrarnos escribir la ruta a nuestra carpeta personal.
+- En el manual verás cosas como "~/docker". Esa ruta, que corresponde al servidor Ubuntu, es la misma que "/home/servi/docker". ~ significa “mi carpeta personal". Simplmente es un atajo que nos permite ahorrarnos escribir la ruta a nuestra carpeta personal.
 
--En Ubuntu, cada usuario tiene una carpeta propia donde guarda sus archivos. Para el usuario servi, esa carpeta es: /home/servi. En Windows sería el equivalente a "C:\Users\servi", así que "~/docker" en Ubuntu sería el equivalente Windows de "C:\Users\servi\docker"
+- En Ubuntu, cada usuario tiene una carpeta propia donde guarda sus archivos. Para el usuario servi, esa carpeta es: /home/servi. En Windows sería el equivalente a "C:\Users\servi", así que "~/docker" en Ubuntu sería el equivalente Windows de "C:\Users\servi\docker"
 
 # Empecemos
 
