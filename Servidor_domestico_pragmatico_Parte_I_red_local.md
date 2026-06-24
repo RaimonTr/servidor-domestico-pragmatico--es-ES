@@ -1576,7 +1576,14 @@ servidor de casa
   ↓
 biblioteca privada
 ```
-> En la II Parte configuraremos el acceso seguro desde fuera de casa mediante Tailscale, para poder utilizar estas aplicaciones también cuando no estemos conectados a nuestra red local si no desde fuera de casa.
+
+En la Parte II configuraremos el acceso seguro desde fuera de casa mediante Tailscale, para poder utilizar estas aplicaciones cuando no estemos conectados a nuestra red local.
+
+---
+
+# Capítulo 20. Instalar la app móvil de Immich
+
+Lo veremos en la II Parte, no me da la vida.
 
 ---
 
@@ -2179,7 +2186,7 @@ clear
 id -u
 id -g
 ```
-Si muestra 1000:1000 se puede conservar, si no, se ha de cambiar por otros.
+Si ambos comandos muestran 1000, puedes conservar user: "1000:1000". Si muestran otros números, sustituye cada 1000 por el valor correspondiente.
 
 ```yaml
 services:
@@ -2337,6 +2344,17 @@ clear
 
 nano docker-compose.yml
 ```
+
+Pega esto teniendo en cuenta que el usuario "1000:1000" funciona si es el primer usuario que configuramos. Ejecuta
+
+```bash
+clear
+
+id -u
+id -g
+```
+Si ambos comandos muestran 1000, puedes conservar user: "1000:1000". Si muestran otros números, sustituye cada 1000 por el valor correspondiente.
+
 
 Pega:
 
