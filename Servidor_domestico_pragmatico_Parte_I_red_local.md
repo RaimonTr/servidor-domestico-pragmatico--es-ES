@@ -3,6 +3,8 @@
 
 **Estado:** Parte I independiente. Montaje y uso del servidor dentro de la red local. Incluye los capítulos 1–27.
 
+> En esta Parte I no vamos a configurar todavía un sistema completo de copias de seguridad. Vamos a entender qué debe copiarse y cómo comprobar que una copia sirve realmente.
+
 ---
 
 # Antes de empezar
@@ -1560,28 +1562,6 @@ A partir de aquí ya puedes entrar en Immich, aunque no hayamos importado todav�
 
 Tampoco hemos configurado el móvil ni gestionado backups, peroooooo el primer mueble ya está dentro de la casa.
 
----
-
-# Capítulo 20. Instalar la app móvil de Immich
-
-Immich empieza a tener sentido de verdad cuando lo ves desde el móvil.
-
-Porque las fotos normalmente las ves en el móvil.
-
-Así que ve a la Store de aplicaciones e instala la app de Immich en tu teléfono.
-
-Cuando la abras, te pedirá la dirección del servidor.
-
-Dentro de casa (LAN) será algo como:
-
-```text
-http://192.168.1.99:2283
-```
-
-Cambia la IP por la tuya.
-
-Después inicia sesión con el usuario que creaste en Immich.
-
 ## Probar con una foto
 
 No empieces subiendo toda tu vida, empieza sólo con una, que para hacer pruebas te sobra: la subes.
@@ -1595,6 +1575,8 @@ servidor de casa
   ↓
 biblioteca privada
 ```
+> En la II Parte configuraremos el acceso seguro desde fuera de casa mediante Tailscale, para poder utilizar estas aplicaciones también cuando no estemos conectados a nuestra red local si no desde fuera de casa.
+
 ---
 
 # Capítulo 21. Qué hemos conseguido con Immich
@@ -2188,7 +2170,15 @@ clear
 nano docker-compose.yml
 ```
 
-Pega esto:
+Pega esto teniendo en cuenta que el usuario "1000:1000" funciona si es el primer usuario que configuramos. Ejecuta
+
+```bash
+clear
+
+id -u
+id -g
+```
+Si muestra 1000:1000 se puede conservar, si no, se ha de cambiar por otros.
 
 ```yaml
 services:
