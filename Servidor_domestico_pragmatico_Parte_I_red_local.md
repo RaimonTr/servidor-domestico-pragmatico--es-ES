@@ -822,6 +822,8 @@ La idea es simple:
 
 Ahora vamos a empezar en serio a usar la Terminal, bien con destino de tus instrucciones a tu ordenador personal, bien a tu servidor.
 
+> Nota: Yo acabé un poco cansado de Terminal.app y me descargué iTerm2.app desde ```text https://iterm2.com/ ```. Permite tener siultáneamente 2 ventanas de terminal contiguas (Cmd+D), así que en la de la izquierda trabajo con mi ordenador personal y en la de la derecha con el servidor. Puedes alternar entre ellas pulsando Cmd+option+fecha izquierda/derecha. También sirve para almacenar claves SSH y otras cosillas de las que hablaremos en una segunda parte de este manual.
+
 ## Crear carpetas
 
 **Ejecutar en SERVIPLAN:**
