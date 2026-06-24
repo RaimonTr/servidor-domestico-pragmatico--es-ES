@@ -40,7 +40,7 @@ La idea inicial era sencilla: un servidor para almacenar y ver desde cualquiera 
 - escuchar mi música;
 - tener mis películas y series;
 - hacer copias de seguridad;
-- depender un poco menos de los GAFAM (esta pasada semana me he enterado que ahora se llaman [MAGMA](https://es.wikipedia.org/wiki/Gigantes_tecnol%C3%B3gicos) ).
+- depender un poco menos de los GAFAM (esta pasada semana me he enterado que ahora se llaman [MAGMA](https://es.wikipedia.org/wiki/Gigantes_tecnol%C3%B3gicos#Acr%C3%B3nimos)).
 
 No pretende ser un curso completo de Linux y no pretende convertirte en administrador de sistemas (a ratos puede que te sientas Neo, pero necesitas ser viejo para pillar eso).
 
