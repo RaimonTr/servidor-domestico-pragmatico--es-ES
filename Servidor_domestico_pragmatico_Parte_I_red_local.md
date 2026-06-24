@@ -204,11 +204,11 @@ Las iremos montando una a una.
 
 # ¿Por qué he usado un portátil viejo?
 
-Tenía un portátil relativamente moderno parado, consume poco y tiene batería incorporada, lo que me sirve como SAI (Sistema de Alimentación Ininterrumpida: vaya, que si se va la electricidad de casa tengo 5 o 6 horas de batería).
+Tenía un portátil relativamente moderno parado, consume poco y tiene batería incorporada, lo que actúa como una pequeña protección frente a microcortes para el propio servidor, aunque no mantiene encendidos el router ni los demás equipos de red.
 
 También hace poco ruido y la carga de la CPU es de risa, por debajo del 1% si no estoy haciendo nada.
 
-También viene con pantalla y teclado, por si un día pasa algo raro. Está guay ser un admin ("hola, soy administrador de un servidor y molo mogollón), qué, como sabe todo el mundo, ligan tutiplén, pero como era mi primer servidor, preferí "por si acaso" disponer de un teclado y una pantalla a la que poder golpear cabreado. Si nunca has golpeado un ordenador, jamás serás un admin de verdad, lo siento.
+También viene con pantalla y teclado, por si un día pasa algo raro. Está guay ser un admin ("hola, soy administrador de un servidor y molo mogollón, que, como sabe todo el mundo, ligan tutiplén"), pero como era mi primer servidor, preferí "por si acaso" disponer de un teclado y una pantalla a la que poder golpear cabreado. Si nunca has golpeado un ordenador, jamás serás un admin de verdad, lo siento.
 
 Así que parte del objetivo de este proyecto no es tener el servidor perfecto. Es tener uno útil.
 
@@ -460,7 +460,8 @@ Así que, para este montaje:
 
 ```text
 sin cifrado
-sin LVM complicado
+sin particionado manual
+sin configuraciones avanzadas de almacenamiento
 sin particiones raras
 ```
 
@@ -634,7 +635,7 @@ Estar dentro no significa que estemos usando una app. Significa que estamos habl
 
 Cuando escribimos una orden, Ubuntu la ejecuta. Si la orden pregunta algo, Ubuntu responde. Si la orden cambia algo, Ubuntu lo cambia.
 
-Por eso iremos con calma, pero no por miedo ni respeto, un servidor es una herramienta poderosa, y una herramienta poderosa conviene entenderla antes de ponerse a aporrearla como si fuera una piedra ( un gran poder conlleva etc etc etc).
+Por eso iremos con calma, pero no por miedo ni respeto, un servidor es una herramienta poderosa, y una herramienta poderosa conviene entenderla antes de ponerse a aporrearla como si fuera una piedra (un gran poder conlleva etc etc etc).
 
 ---
 
@@ -2646,8 +2647,6 @@ qué servicios eran importantes
 Un backup sin instrucciones puede ser un puzzle.
 
 Y un puzzle, cuando estás cansado y cabreado porque algo se ha roto, es una maravilla de la literatura fantástica.
-
----
 
 ---
 
