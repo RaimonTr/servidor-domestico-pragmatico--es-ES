@@ -30,6 +30,14 @@ Lo que sí serás es soberano de tus datos. ¿Cuánto vale eso?
 
 También obtendrás algo difícil de comprar: control. Tus fotos estarán donde tú decidas, tu música estará donde tú decidas y tus copias de seguridad estarán donde tú decidas. Y cuando algo falle, sabrás dónde mirar porque el sistema será tuyo. ¿Vale la pena? No lo sé. Cada persona tendrá que responder esa pregunta por sí misma. Pero después de terminar este manual, al menos podrás decidir con conocimiento de causa.
 
+# Aclaraciones que se me van ocurriendo
+
+-Este manual se ha escrito desde un Mac. Supongo que es lo mismo si usas GNU-Linux, pero desde luego no te va a funcionar en Windows.
+
+-En el manual verás cosas como "~/docker". Esa ruta, que corresponde al servidor Ubuntu, es la misma que "/home/servi/docker". ~ significa “mi carpeta personal". Simplmente es un atajo que nos permite ahorrarnos escribir la ruta a nuestra carpeta personal.
+
+-En Ubuntu, cada usuario tiene una carpeta propia donde guarda sus archivos. Para el usuario servi, esa carpeta es: /home/servi. En Windows sería el equivalente a "C:\Users\servi", así que "~/docker" en Ubuntu sería el equivalente Windows de "C:\Users\servi\docker"
+
 # Empecemos
 
 Este libro cuenta cómo se montó un servidor doméstico real por necesidades muy concretas y sin tener ni p*** idea de montar un servidor.
