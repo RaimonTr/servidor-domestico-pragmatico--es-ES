@@ -3,8 +3,6 @@
 
 **Estado:** Parte I independiente. Montaje y uso del servidor dentro de la red local. Incluye los capítulos 1–27.
 
-**Licencia:** MIT
-
 ---
 
 # Antes de empezar
@@ -783,7 +781,8 @@ Pero cada casa es distinta.
 
 No vamos a entrar ahora en la configuración del router, porque cada modelo tiene sus menús y sus rarezas. De momento basta con saber esto:
 
-> Si el servidor cambia de IP, no se ha roto. Sólo tienes que encontrar su nueva dirección.
+> Si el servidor cambia de IP, no se ha roto. Sólo tienes que encontrar su nueva dirección:
+> ip -br addr
 
 ---
 
