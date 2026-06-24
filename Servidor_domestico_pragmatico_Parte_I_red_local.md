@@ -126,7 +126,7 @@ Tu ordenador
       ├── Música
       ├── Películas
       ├── Copias de seguridad
-      └── Acceso remoto privado
+      └── Acceso remoto privado (que irá en la segunda parte del manual)
 ```
 
 Todavía no importa cómo se llaman las cosas. Primero intentaremos entender qué problema resuelve qué, y después aprenderemos sus nombres.
@@ -171,7 +171,7 @@ Nuestro Spotify particular.
 
 Nuestro pequeño Netflix.
 
-## Tailscale
+## Tailscale (se verá en la II Parte del Manual)
 
 Crea una pequeña red privada entre nuestros dispositivos para poder entrar al servidor de casa desde cualquier lugar sin que nadie más pueda hacerlo (siempre que tengas cobertura de red, milagros a Lourdes).
 
@@ -190,7 +190,7 @@ Ubuntu Server
    │     ├── Navidrome
    │     └── Jellyfin
    │
-   └──  Tailscale
+   └──  Tailscale (de nuevo, se verá en la II parte)
    
 ```
 
@@ -541,7 +541,7 @@ Durante la instalación aparecerá una opción parecida a esta:
 Install OpenSSH server
 ```
 
-Márcala. SSH es, explicado en una frase, una forma de conectarte a otro ordenador a través de Internet, bien fibra/cable, bien teléfono móvil. Dicho todavía más claro: nos permitirá controlar el servidor desde el ordenador personal sin tener que estar sentados delante y sin levantarnos del sofá.
+Márcala. SSH es, explicado en una frase, una forma de conectarte a otro ordenador. Dicho todavía más claro: nos permitirá controlar el servidor desde el ordenador personal sin tener que estar sentados delante y sin levantarnos del sofá.
 
 Si no la marcas, no se acaba el mundo, pero nos complicaremos tontamente la vida, así que márcala.
 
@@ -844,7 +844,7 @@ Permite tener siultáneamente 2 ventanas de terminal contiguas (Cmd+D), así que
 
 Recuerda que ya no tienes que estar sentado delante del servidor, basta con entrar desde la terminal: 
 ```bash
-ssh servi@192.168.1.39
+ssh servi@192.168.1.99
 ```
 Recuerda cambiar el usuario "servi" y la ip por los tuyos. Una vez conectado a tu servidor, ejecuta:
 
@@ -1712,11 +1712,11 @@ No intentes mudarte a una casa antes de comprobar que existe la casa.
 
 Para que immich-go pueda subir fotos, Immich necesita darle permiso.
 
-Ese permiso se da con una API key, que es una llave criptográfica, ni una llave física ni una llave de texto.
+Ese permiso se da con una API key, que es una llave criptográfica.
 
 Sirve para que un programa pueda hablar con otro sin que tú tengas que escribir la contraseña cada dos minutos.
 
-En Immich, entra con tu usuario administrador y busca la sección de API keys.
+En Immich, entra con tu usuario administrador y busca la sección de API keys. Una API key es una cadena de texto secreta que permite que un programa se identifique y reciba permiso para comunicarse con otro.
 
 Crea una nueva, cópiala y guárdala con cuidado:
 
@@ -2483,7 +2483,7 @@ Porque un servidor sin backup es una forma elegante de pedirle una hostia al des
 
 ---
 
-# Capítulo 26. Copias de seguridad: porque Murphy existe
+# Capítulo 26. Principios básicos de las copias de seguridad: porque Murphy existe (se amplía en la II parte)
 
 Ya tenemos servicios funcionando.
 
@@ -2604,7 +2604,7 @@ Lo veremos al final como ideas para quien quiera aburrirse voluntariamente.
 
 ---
 
-# Capítulo 27. Verificar backups: confiar está bien, comprobar está mejor
+# Capítulo 27. Principios básicos: Verificar backups: confiar está bien, comprobar está mejor (se amplía en la II parte del manual) 
 
 Hacer backups está bien.
 
@@ -2681,4 +2681,4 @@ El acceso desde fuera de casa, Tailscale, mantenimiento avanzado, recuperación 
 
 Y, por supuesto, cuando tengamos un sistema (Tailscale) para comunicarnos connuestro servidor desde fuera de casa, instlaremos las apps en el móvil.
 
-Fin de la Parte I.
+Fin de la Parte I, dentro de algunas semanas irá la Parte II, pero tenéis tajo suficiente con esta parte.
