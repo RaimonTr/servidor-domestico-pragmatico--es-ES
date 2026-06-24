@@ -7,18 +7,20 @@
 
 # Antes de empezar
 
-Primera frase: Este manual se ha elaborado con ayuda de IA generativa. Ni lo oculto ni lo vendo como trabajo puramente humano. La IA ha estado como apoyo para explicar conceptos, proponer comandos, revisar errores y ordenar documentación. Pero una IA puede equivocarse con absoluta seguridad aparente. Por eso, cualquier comando que afecte a discos, usuarios, permisos, redes, seguridad o copias de seguridad debe entenderse antes de ejecutarse, que es lo que he hecho yo.
+Primera frase: Este manual se ha elaborado con ayuda de IA generativa. Ni lo oculto ni lo vendo como trabajo puramente humano. La IA ha estado como apoyo para explicar conceptos, proponer comandos, revisar errores y ordenar documentación, pero el texto del manual es mío casi al 99%. 
+
+También una IA puede equivocarse con absoluta seguridad aparente. Por eso, cualquier comando que afecte a discos, usuarios, permisos, redes, seguridad o copias de seguridad debe entenderse antes de ejecutarse, que es lo que he intentado hacer yo.
 
 La responsabilidad de ejecutar algo en un ordenador real sigue siendo humana. Eres muy libre de quemar este manual si no te sientes cómodo con ello.
 
-Segunda frase: He intentado mantener un tono muy desenfadado en la escritura de este manual, pero, PERO, un servidor requiere atención continua porque funciona más o menos así:
+Segunda frase: He intentado mantener un tono muy desenfadado en la escritura de este manual, y un porcentaje no medible de palabras malsonantes.
+
+Pero también hay partes muy serias, porque un servidor, básicamente, es:
 
 - 20% montaje
 - 80% mantenimiento
 
-Y un porcentaje no medible de palabras malsonantes.
-
-Tercera frase: Has de divertirte. Si no disfrutas con la Terminal o lanzando comandos raros que casi no entiendes y no te pica la curiosidad, mal vamos.
+Tercera frase: Has de divertirte. Si no disfrutas con la Terminal o lanzando comandos raros que casi no entiendes y que te has pegado 2 horas para más o menos comprenderlos y no te pica la curiosidad, mal vamos.
 
 En este manual vamos a dedicar casi todo nuestro tiempo al 20%. El otro 80% es más complicado y deberás aprenderlo con el tiempo. Actualizar, revisar, hacer copias de seguridad, comprobar que todo sigue funcionando y arreglar las cosas cuando dejan de funcionar forman parte del trabajo real.
 
