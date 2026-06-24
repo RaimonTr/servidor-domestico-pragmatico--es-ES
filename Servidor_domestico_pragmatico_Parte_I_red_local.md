@@ -832,6 +832,12 @@ Permite tener siultáneamente 2 ventanas de terminal contiguas (Cmd+D), así que
 
 **Ejecutar en SERVIPLAN:**
 
+Recuerda que ya no tienes que estar sentado delante del servidor, basta con entrar desde la terminal: 
+```bash
+ssh servi@192.168.1.39
+```
+Recuerda cambiar el usuario "servi" y la ip por los tuyos.
+
 ```bash
 clear
 
