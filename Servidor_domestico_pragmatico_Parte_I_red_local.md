@@ -2011,8 +2011,6 @@ TU_API_KEY
 
 por la API key que has creado en Immich.
 
-No publiques ese comando con la API key real.
-
 Después entra en Immich desde el navegador y comprueba:
 
 ```text
