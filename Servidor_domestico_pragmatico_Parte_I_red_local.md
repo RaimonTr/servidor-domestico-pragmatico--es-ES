@@ -781,9 +781,11 @@ Pero cada casa es distinta.
 
 No vamos a entrar ahora en la configuración del router, porque cada modelo tiene sus menús y sus rarezas. De momento basta con saber esto:
 
-> Si el servidor cambia de IP, no se ha roto. Sólo tienes que encontrar su nueva dirección:
-> ip -br addr
+> Si el servidor cambia de IP, no se ha roto. Sólo tienes que encontrar su nueva dirección. Escribe de nuevo en el servidor:
 
+```text
+ip -br addr
+```
 ---
 
 # Capítulo 9. Preparar unas carpetas básicas
