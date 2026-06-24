@@ -1563,27 +1563,13 @@ A partir de aquí ya puedes entrar en Immich, aunque no hayamos importado todav�
 
 Tampoco hemos configurado el móvil ni gestionado backups, peroooooo el primer mueble ya está dentro de la casa.
 
-## Probar con una foto
-
-No empieces subiendo toda tu vida, empieza sólo con una, que para hacer pruebas te sobra: la subes.
-
-Vas al navegador del Mac y refrescas Immich, compruebas que aparece.
-
-```text
-móvil
-  ↓
-servidor de casa
-  ↓
-biblioteca privada
-```
-
 En la Parte II configuraremos el acceso seguro desde fuera de casa mediante Tailscale, para poder utilizar estas aplicaciones cuando no estemos conectados a nuestra red local.
 
 ---
 
 # Capítulo 20. Instalar la app móvil de Immich
 
-Lo veremos en la II Parte, no me da la vida.
+Lo veremos en la Parte II, no me da la vida.
 
 ---
 
@@ -1597,7 +1583,6 @@ Antes de correr al siguiente servicio, conviene mirar lo que acabamos de hacer:
 - Hemos arrancado varios contenedores.
 - Hemos abierto Immich desde el Mac.
 - Hemos creado el primer usuario.
-- Hemos probado la app móvil.
 
 Eso ya es un servidor doméstico haciendo algo útil.
 
@@ -1618,8 +1603,6 @@ docker-compose.yml descargado
 Immich arrancado
 http://IP_DEL_SERVIDOR:2283 funcionando desde el Mac
 usuario inicial creado
-app móvil conectada
-primera foto de prueba subida
 ```
 
 Si todo eso está bien, podemos hablar de una parte fundamental: migrar las fotos que ya tienes en Google Photos, porque si no puedes sacar tus recuerdos de allí, esto se queda a medias.
