@@ -836,7 +836,7 @@ Recuerda que ya no tienes que estar sentado delante del servidor, basta con entr
 ```bash
 ssh servi@192.168.1.39
 ```
-Recuerda cambiar el usuario "servi" y la ip por los tuyos.
+Recuerda cambiar el usuario "servi" y la ip por los tuyos. Una vez conectado a tu servidor, ejecuta:
 
 ```bash
 clear
