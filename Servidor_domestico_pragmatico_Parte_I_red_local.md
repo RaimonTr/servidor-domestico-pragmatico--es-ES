@@ -32,7 +32,7 @@ También obtendrás algo difícil de comprar: control. Tus fotos estarán donde 
 
 # Aclaraciones que se me van ocurriendo
 
-- Este manual se ha escrito desde un Mac. Supongo que es lo mismo si usas GNU/Linux (que abreviaremos como Linux o Ubuntu, por ser la distribución Linux que vamos a usar), pero desde luego no te va a funcionar en Windows.
+- Este manual se ha escrito desde un Mac. Supongo que es lo mismo si usas GNU/Linux (que abreviaremos como Linux o Ubuntu, por ser la distribución Linux que vamos a usar), pero desde luego no te va a funcionar en Windows. En Windows lo podrás hacer como se hacen las cosas en Windows, pantalla tras pantalla.
 
 - En el manual verás cosas como "~/docker". Esa ruta, que corresponde al servidor Ubuntu, es la misma que "/home/servi/docker". ~ significa “mi carpeta personal". Simplmente es un atajo que nos permite ahorrarnos escribir la ruta a nuestra carpeta personal.
 
@@ -2678,5 +2678,7 @@ Ya tienes una base útil:
 No abras puertos del router ni expongas estos servicios directamente a Internet.
 
 El acceso desde fuera de casa, Tailscale, mantenimiento avanzado, recuperación y automatización se tratarán aparte.
+
+Y, por supuesto, cuando tengamos un sistema (Tailscale) para comunicarnos connuestro servidor desde fuera de casa, instlaremos las apps en el móvil.
 
 Fin de la Parte I.
