@@ -3,7 +3,7 @@
 
 **Estado:** Parte I independiente. Montaje y uso del servidor dentro de la red local. Incluye los capítulos 1–27.
 
-> En esta Parte I no vamos a configurar todavía un sistema completo de copias de seguridad. Vamos a entender qué debe copiarse y cómo comprobar que una copia sirve realmente.
+> En esta Parte I no vamos a configurar todavía un sistema completo de copias de seguridad ni el acceso remoto (desde fuera de casa). En la Parte II nos liaremos la manta a la cabeza con eso.
 
 ---
 
