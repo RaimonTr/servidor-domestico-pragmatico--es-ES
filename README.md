@@ -1,5 +1,7 @@
 # servidor_domestico_pragmatico_es-ES
 
+Nota: Yo no soy ni informático ni nada remotamente parecido de eso.
+
 Por Internet hay cientos de manuales de cómo montarse en casa un servidor doméstico para montarte los servicios que quieras (fotos, películas, música, contraseñas, archivos...), pero casi todos están basados en montarlos desde Windows.
 
 Y, como yo no uso Windows desde hace décadas, me encontré con muy poca info de cómo hacerlo desde un mac, lo cuál no debería ser un problema dado que la terminal del mac usa [zsh (y bash, y fish, y...)](https://es.wikipedia.org/wiki/Shell_(inform%C3%A1tica)) y Ubuntu (que es el SO que le voy a meter al servidor, pues no debería haber muchos problemas.
