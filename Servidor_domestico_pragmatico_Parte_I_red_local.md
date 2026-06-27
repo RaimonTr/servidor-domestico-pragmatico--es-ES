@@ -72,6 +72,8 @@ Sólo hace falta una cosa:
 
 Una Terminal te da acceso directo al sistema operativo. Dicho rápido: es una forma de darle órdenes al ordenador sin pasar por ventanas, iconos y botones.
 
+Por cierto, ya que estamos, en macOS a la terminal se accede bien desde Aplicaciones->Utilidades->terminal.app, bien lanzando spotlight (command+espacio) y escribiendo "terminal".
+
 ---
 
 # ¿Para quién está escrito?
