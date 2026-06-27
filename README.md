@@ -1,6 +1,6 @@
 # servidor_domestico_pragmatico_es-ES
 
-Nota: Yo no soy ni informático ni nada remotamente parecido de eso.
+Nota: Yo no soy ni informático ni nada remotamente parecido a eso.
 
 Por Internet hay cientos de manuales de cómo montarse en casa un servidor doméstico para montarte los servicios que quieras (fotos, películas, música, contraseñas, archivos...), pero casi todos están basados en montarlos desde Windows.
 
